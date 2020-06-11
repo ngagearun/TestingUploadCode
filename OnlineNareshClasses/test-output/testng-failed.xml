@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [candiatepsiexams]" parallel="none">
+  <listeners>
+    <listener class-name="com.applicationname.reusable.TestListener"/>
+  </listeners>
+  <test name="regressiontesting(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.applicationname.businessscripts.ContactUs">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="clickoncontactus"/>
+          <include name="tearDown"/>
+          <include name="clickonHomePagelink"/>
+        </methods>
+      </class> <!-- com.applicationname.businessscripts.ContactUs -->
+      <class name="com.applicationname.businessscripts.CreateAnAccount">
+        <methods>
+          <include name="creatingtheaccount"/>
+          <include name="clickoncreateaccountlink"/>
+          <include name="logoutfromaccount"/>
+        </methods>
+      </class> <!-- com.applicationname.businessscripts.CreateAnAccount -->
+      <class name="com.applicationname.businessscripts.RegisterForTest">
+        <methods>
+          <include name="clickonregisterlink"/>
+        </methods>
+      </class> <!-- com.applicationname.businessscripts.RegisterForTest -->
+    </classes>
+  </test> <!-- regressiontesting(failed) -->
+</suite> <!-- Failed suite [candiatepsiexams] -->

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\Lenovo\Documents\OnlineNareshClasses\target\surefire-reports\failure_screenshots\creatingtheaccount_06_06_2020_08_49_52.png'> <img src='C:\Users\Lenovo\Documents\OnlineNareshClasses\target\surefire-reports\failure_screenshots\creatingtheaccount_06_06_2020_08_49_52.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="candiatepsiexams" duration-ms="38780" started-at="2020-06-06T03:19:27Z" finished-at="2020-06-06T03:20:06Z">
+    <groups>
+      <group name="regression">
+        <method signature="ContactUs.verifycontactdetailpageforlicenseuser()[pri:0, instance:com.applicationname.businessscripts.ContactUs@fe18270]" name="verifycontactdetailpageforlicenseuser" class="com.applicationname.businessscripts.ContactUs"/>
+        <method signature="CreateAnAccount.creatingtheaccount()[pri:0, instance:com.applicationname.businessscripts.CreateAnAccount@1da51a35]" name="creatingtheaccount" class="com.applicationname.businessscripts.CreateAnAccount"/>
+        <method signature="CreateAnAccount.verifypopupforpasswordrules()[pri:0, instance:com.applicationname.businessscripts.CreateAnAccount@1da51a35]" name="verifypopupforpasswordrules" class="com.applicationname.businessscripts.CreateAnAccount"/>
+        <method signature="RegisterForTest.fDNY_RegisterExam_coreectuerdetails()[pri:0, instance:com.applicationname.businessscripts.RegisterForTest@16022d9d]" name="fDNY_RegisterExam_coreectuerdetails" class="com.applicationname.businessscripts.RegisterForTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="regressiontesting" duration-ms="38780" started-at="2020-06-06T03:19:27Z" finished-at="2020-06-06T03:20:06Z">
+      <class name="com.applicationname.businessscripts.CreateAnAccount">
+        <test-method status="PASS" signature="clickoncreateaccountlink()[pri:0, instance:com.applicationname.businessscripts.CreateAnAccount@1da51a35]" name="clickoncreateaccountlink" is-config="true" duration-ms="1296" started-at="2020-06-06T08:49:42Z" finished-at="2020-06-06T08:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoncreateaccountlink -->
+        <test-method status="PASS" signature="verifypopupforpasswordrules()[pri:0, instance:com.applicationname.businessscripts.CreateAnAccount@1da51a35]" name="verifypopupforpasswordrules" duration-ms="2607" started-at="2020-06-06T08:49:44Z" finished-at="2020-06-06T08:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypopupforpasswordrules -->
+        <test-method status="FAIL" signature="creatingtheaccount()[pri:0, instance:com.applicationname.businessscripts.CreateAnAccount@1da51a35]" name="creatingtheaccount" duration-ms="5420" started-at="2020-06-06T08:49:46Z" finished-at="2020-06-06T08:49:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Arun Kumar] but found [Welcome Arun kumar]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Arun Kumar] but found [Welcome Arun kumar]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.applicationname.businessscripts.CreateAnAccount.creatingtheaccount(CreateAnAccount.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\Lenovo\Documents\OnlineNareshClasses\target\surefire-reports\failure_screenshots\creatingtheaccount_06_06_2020_08_49_52.png'> <img src='C:\Users\Lenovo\Documents\OnlineNareshClasses\target\surefire-reports\failure_screenshots\creatingtheaccount_06_06_2020_08_49_52.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- creatingtheaccount -->
+        <test-method status="PASS" signature="logoutfromaccount()[pri:0, instance:com.applicationname.businessscripts.CreateAnAccount@1da51a35]" name="logoutfromaccount" is-config="true" duration-ms="2051" started-at="2020-06-06T08:49:52Z" finished-at="2020-06-06T08:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromaccount -->
+      </class> <!-- com.applicationname.businessscripts.CreateAnAccount -->
+      <class name="com.applicationname.businessscripts.RegisterForTest">
+        <test-method status="PASS" signature="clickonregisterlink()[pri:0, instance:com.applicationname.businessscripts.RegisterForTest@16022d9d]" name="clickonregisterlink" is-config="true" duration-ms="1311" started-at="2020-06-06T08:49:54Z" finished-at="2020-06-06T08:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonregisterlink -->
+        <test-method status="PASS" signature="fDNY_RegisterExam_coreectuerdetails()[pri:0, instance:com.applicationname.businessscripts.RegisterForTest@16022d9d]" name="fDNY_RegisterExam_coreectuerdetails" duration-ms="10020" started-at="2020-06-06T08:49:56Z" finished-at="2020-06-06T08:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fDNY_RegisterExam_coreectuerdetails -->
+      </class> <!-- com.applicationname.businessscripts.RegisterForTest -->
+      <class name="com.applicationname.businessscripts.ContactUs">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.applicationname.businessscripts.ContactUs@fe18270]" name="launchbrowser" is-config="true" duration-ms="9008" started-at="2020-06-06T08:49:27Z" finished-at="2020-06-06T08:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="clickoncontactus()[pri:0, instance:com.applicationname.businessscripts.ContactUs@fe18270]" name="clickoncontactus" is-config="true" duration-ms="2506" started-at="2020-06-06T08:49:36Z" finished-at="2020-06-06T08:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoncontactus -->
+        <test-method status="PASS" signature="verifycontactdetailpageforlicenseuser()[pri:0, instance:com.applicationname.businessscripts.ContactUs@fe18270]" name="verifycontactdetailpageforlicenseuser" duration-ms="1710" started-at="2020-06-06T08:49:39Z" finished-at="2020-06-06T08:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontactdetailpageforlicenseuser -->
+        <test-method status="PASS" signature="clickonHomePagelink()[pri:0, instance:com.applicationname.businessscripts.ContactUs@fe18270]" name="clickonHomePagelink" is-config="true" duration-ms="1494" started-at="2020-06-06T08:49:41Z" finished-at="2020-06-06T08:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonHomePagelink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.applicationname.businessscripts.ContactUs@fe18270]" name="tearDown" is-config="true" duration-ms="724" started-at="2020-06-06T08:50:06Z" finished-at="2020-06-06T08:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.applicationname.businessscripts.ContactUs -->
+    </test> <!-- regressiontesting -->
+  </suite> <!-- candiatepsiexams -->
+</testng-results>

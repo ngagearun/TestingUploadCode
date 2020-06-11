@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="candiatepsiexams">
+<listeners>
+	<listener class-name="com.applicationname.reusable.TestListener"></listener>
+</listeners>
+   <test name="regressiontesting">
+   <groups>  
+   <run>
+     <include name="regression"></include>
+   </run>   
+   </groups>
+      <classes>
+      <class name="com.applicationname.businessscripts.ContactUs"></class>
+      <class name="com.applicationname.businessscripts.CreateAnAccount"></class>
+      <class name="com.applicationname.businessscripts.RegisterForTest"></class>
+      </classes>   
+   </test>
+</suite>
