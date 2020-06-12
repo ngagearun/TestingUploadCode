@@ -23,7 +23,7 @@ public class TestBaseSetup extends ExtentCustomisedReports{
      @BeforeTest(groups={"regression","sanity"})
 	public static void launchbrowser() throws IOException{
     	 ex=new ExtentCustomisedReports(System.getProperty("user.dir")+"\\extentreport.html");
-    	 reusableproperties=new ReusablePropertiesFile("C:\\Users\\Lenovo\\Documents\\OnlineNareshClasses\\configuration.properties");
+    	 reusableproperties=new ReusablePropertiesFile(System.getProperty("user.dir")+"\\configuration.properties");
     	String browsername=reusableproperties.getPropertyData("browsername");
 		if(browsername.equalsIgnoreCase("firefox")){
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Lenovo\\Downloads\\geckodriver.exe");		
